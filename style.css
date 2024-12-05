@@ -1,0 +1,197 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar {
+    background-color: #FFFFFF;
+    height: 100px;
+    border-bottom: 1px solid #ddd;
+    align-content: center;
+    margin-right: 10px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-list > li > a {
+    text-decoration: none;
+} 
+
+.hero-section {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 100px;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.hero-text  {
+    max-width: 100%;
+    font-size: 52,67px;
+    font-weight: 700;
+    line-height: 62,5px;
+}
+
+.hero-subtext {
+    max-width: 100%;
+    font-size: 18px;
+    font-weight: 350;
+    line-height: 25px;
+}
+
+.hero-text > h1 {
+    font-size: 2em;
+    color: #000000;
+}
+
+.hero-text > h1 > span{
+    color: #D45113;
+}
+
+.hero-text > h1 > p{
+    margin: 20px 0;
+    color: #813405;
+}
+
+.button-group {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    border: 1px solid #D45113;
+    color: #FFFFFF;
+    border-radius:4px;
+    width: 180px;
+    background-color:#F9A03F;;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.btn-github {
+    border: 1px solid  #813405;
+    color: #D45113;
+    border-radius:4px;
+    width: 180px;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.hero-image > img {
+    max-width: 100%;
+    height: auto;
+    width: 603px;
+    padding: 50px 30px 0 50px;
+    justify-content: right;
+}
+
+.section-formações {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 32px;
+    color: #813405;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.list-formacao {
+    list-style: none;
+}
+
+.fomarcao-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 60px 0;
+}
+
+.article-ciclo {
+    width: 75%;
+}
+
+article > p {
+text-align: justify;
+}
+
+.section-about {
+    background-color: #F8DDA4;
+    width: 100%;
+    height: 852px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.article-about {
+    width: 691px;
+    height: 433px;
+    gap: 32px;
+    font-size: 20px;
+    line-height: 36px;
+    color: #000000;
+    font-weight: 400;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.title-about-me {
+    opacity: 0px;
+}
+
+.text-detalhe {
+    max-width: 80%;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.img-perfil {
+    width: 450px;
+    height: 500px;
+    margin-left: 30git initpx;
+    border-radius: 50%;
+}
+
+.section-experiencias {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.experiencias-item {
+    display: list-item;
+    justify-content: space-between;
+    padding: 60px 0;
+    list-style: none;
+}
+
+.contatos {
+    background-color: #F8DDA4;
+    width: 100%;
+    height: 270px;
+   padding-top: 50px;
+    
+}
+
+.contatos > span {
+    margin-left: 40px;
+}
