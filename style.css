@@ -26,7 +26,7 @@ body {
   font-weight: 400;
 }
 
-.section-principal {
+#inicio {
   max-width: 900px;
   margin: 0 auto;
   display: flex;
@@ -46,15 +46,6 @@ body {
   line-height: 62, 5px;
 }
 
-.subtext-principal {
-  max-width: 100%;
-  font-size: 18px;
-  font-weight: 380;
-  line-height: 25px;
-  color: #432818;
-  text-align: justify;
-}
-
 .text-principal > h1 {
   font-size: 2em;
   color: #432818;
@@ -68,13 +59,21 @@ body {
   margin: 20px 0;
   color: #432818;
 }
+.subtext-principal {
+  max-width: 100%;
+  font-size: 18px;
+  font-weight: 380;
+  line-height: 25px;
+  color: #432818;
+  text-align: justify;
+}
 
 .button-group {
   display: flex;
   gap: 20px;
 }
 
-.btn {
+.btn-linkedin {
   border: 1px solid #99582a;
   color: #ffffff;
   border-radius: 4px;
@@ -96,17 +95,11 @@ body {
   padding: 10px 20px;
 }
 
-.section-principal > img {
+#inicio > img {
   width: 300px;
   height: 300px;
   border-radius: 50%;
   margin-left: 100px;
-}
-
-.section-formacoes {
-  padding: 50px 20px;
-  max-width: 900px;
-  margin: 0 auto;
 }
 
 h2 {
@@ -116,11 +109,14 @@ h2 {
   margin-bottom: 20px;
 }
 
-.list-formacao {
-  list-style: none;
+#formacoes {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #f4e6e6;
 }
 
-.fomarcao-item {
+#formacoes li {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -129,7 +125,7 @@ h2 {
   color: #432818;
 }
 
-.article-ciclo {
+#formacoes article {
   width: 65%;
 }
 
@@ -137,51 +133,35 @@ article > p {
   text-align: justify;
 }
 
-.article-about {
-  width: 691px;
-  height: 433px;
-  gap: 32px;
-  font-size: 20px;
-  line-height: 36px;
-  color: #432818;
-  font-weight: 400;
-  padding: 20px;
-  margin-bottom: 100px;
-}
-
-.title-about-me {
-  opacity: 0px;
-}
-
-.text-detalhe > a {
-  color: #6f1d1b;
-}
-
-.section-experiencias {
+#experiencias {
   padding: 50px 20px;
   max-width: 900px;
   margin: 0 auto;
 }
 
-.experiencias-item {
-  display: list-item;
+#experiencias li {
+  display: flex;
   justify-content: space-between;
-  padding: 60px 0;
-  list-style: none;
+  align-items: flex-start;
   border-bottom: 1px solid #bb9457;
   color: #432818;
+  padding: 60px 0;
 }
 
-.section-formulario {
+#experiencias article {
+  width: 65%;
+}
+
+#formulario {
   padding: 100px 50px 100px;
 }
 
-.section-formulario > h2 {
+#formulario > h2 {
   color: #6f1d1b;
   font-size: 8px;
 }
 
-.formulario {
+.formulario-contato {
   display: flex;
   flex-direction: column;
   width: 700px;
