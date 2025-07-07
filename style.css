@@ -31,6 +31,7 @@ body {
   margin: 0 auto;
   display: flex;
   padding-top: 100px;
+  margin-bottom: 100px;
 }
 
 .article-principal {
@@ -109,11 +110,29 @@ h2 {
   margin-bottom: 20px;
 }
 
+.espaçamento {
+  background-color: #6f1d1b;
+  width: auto;
+  height: 200px;
+}
+
 #formacoes {
-  padding: 50px 20px;
-  max-width: 900px;
+  max-width: auto;
   margin: 0 auto;
-  background-color: #f4e6e6;
+  display: flex;
+  flex-direction: column; /* garante que os elementos fiquem empilhados verticalmente */
+  align-items: flex-start; /* alinha o conteúdo à esquerda */
+}
+
+#formacoes h2 {
+  margin-left: 50px;
+  padding: 50px 0 0 50px;
+}
+
+#formacoes ul {
+  background-color: #faf4eb;
+  padding: 0 175px 80px 175px;
+  margin-right: auto;
 }
 
 #formacoes li {
@@ -134,9 +153,22 @@ article > p {
 }
 
 #experiencias {
-  padding: 50px 20px;
-  max-width: 900px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* garante que os elementos fiquem empilhados verticalmente */
+  align-items: flex-start; /* alinha o conteúdo à esquerda */
+}
+
+#experiencias ul {
+ background-color: #faf4eb;
+  padding:0px 375px 80px 375px;
+  margin-right: auto;
+
+}
+
+#experiencias h2 {
+  margin-left: 50px;
+  padding: 50px 0 0 50px;
 }
 
 #experiencias li {
@@ -144,8 +176,8 @@ article > p {
   justify-content: space-between;
   align-items: flex-start;
   border-bottom: 1px solid #bb9457;
+  padding: 60px 50px 50px 50px;
   color: #432818;
-  padding: 60px 0;
 }
 
 #experiencias article {
@@ -153,7 +185,7 @@ article > p {
 }
 
 #formulario {
-  padding: 100px 50px 100px;
+  padding: 0px 50px 50px;
 }
 
 #formulario > h2 {
