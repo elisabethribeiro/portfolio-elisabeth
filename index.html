@@ -1,203 +1,118 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
-      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Portfólio HTML CSS</title>
-  </head>
-  <body>
+</head>
+<body>
     <nav class="nav-bar">
-      <ul class="nav-list">
-        <li><a href="#inicio">Início </a></li>
-        <li><a href="#formacoes">Formações</a></li>
-        <li><a href="#experiencias">Experiências</a></li>
-        <li><a href="#formulario">Contatos</a></li>
-      </ul>
+        <ul class="nav-list">
+            <li><a href="#">Início </a></li>
+            <li><a href="#">Formações</a></li>
+            <li>Sobre</li>
+            <li>Experiências</li>
+        </ul>
     </nav>
-
+    
     <main>
-      <section id="inicio">
-        <article class="article-principal">
-          <div class="text-principal">
-            <h1>
-              <b>Elisabeth Aparecida Ribeiro</b>
-              <br /><span>Nutricionista</span>
-            </h1>
-            <p class="subtext-principal">
-              Em transição de carreira para a área de tecnologia, desenvolvendo
-              habilidades de Soft Skills, JavaScript, HTML e CSS, unindo
-              experiência em saúde e novas habilidades técnicas para novos
-              desafios profissionais.
-            </p>
-          </div>
-          <div class="button-group">
-            <a
-              class="btn-linkedin"
-              href="https://www.linkedin.com/in/elisabeth-aparecida-ribeiro/"
-              target="_blank"
-              >Linkedin</a
-            >
-            <a
-              class="btn-github"
-              href="https://github.com/elisabethribeiro"
-              target="_blank"
-              >Github</a
-            >
-          </div>
-        </article>
-        <img src="img/perfil-a.jpeg" alt="Foto pessoal" />
-      </section>
-      <section id="formacoes">
-        <h2>Formações</h2>
-        <ul>
-          <li>
+        <section class="hero-section">
             <article>
-              <h3>Análise de Dados: Meus primeiros passos em python!</h3>
-              <p>PrograMaria</p>
-              <p>
-                Curso introdutório em análise de dados com Python, SQL e
-                ferramentas de visualização. Abarca fundamentos estatísticos,
-                manipulação de dados com Pandas, consultas em banco de dados,
-                dashboards e noções básicas de machine learning.
-              </p>
+                <div class="hero-container">
+                    <article class="hero-text">
+                    <h1><b>Elisabeth Aparecida Ribeiro,</b> <br /><span>Nutricionista</span></h1>
+                    <p class="hero-subtext">Em transição de carreira para a área de tecnologia, desenvolvendo habilidades de Soft Skills, JavaScript, HTML5 e CSS3, unindo experiência em saúde e novas habilidades técnicas.</p>
+                </div>
+                <div class="button-group">
+                    <a class="btn" href="https://www.linkedin.com/in/elisabeth-aparecida-ribeiro/" target="_blank">Linkedin</a>
+                    <a class="btn-github" href= "https://github.com/elisabethribeiro" target="_blank">Github</a>
+                </div>
             </article>
-            <span>Março 2025 - Junho 2025</span>
-          </li>
-          <li>
-            <article>
-              <h3>Introdução à Programação</h3>
-              <p>Minas Programam</p>
-              <p>
-                Desenvolvimento Front End com conceitos básicos de HTML, CSS e
-                Javascript.
-              </p>
+            <figure class="hero-image">
+                <img src="img/image-d.svg" alt="Ilustração de uma pessoa em frente ao computador" />
+            </figure>
+        </section>
+        <section class="section-formações">
+            <h2>Minhas Formações</h2>
+            <ul class="list-formacao">
+                <li class="fomarcao-item">
+                    <article class="article-ciclo">
+                    <h3>Ciclo Formativo Introdutório</h3>
+                    <p>Pretalab</p>
+                    <p>O curso combina habilidades técnicas e de desenvolvimento pessoal para capacitar mulheres negras em sua trajetória profissional. As aulas de Soft Skills abordam como questões estruturais afetam a vida profissional, promovendo reflexões e estratégias de superação. Na parte técnica, são ensinados os fundamentos de lógica de programação utilizando JavaScript, além de princípios básicos de HTML5 e CSS3, preparando as alunas para criar e estilizar páginas web. Essa combinação promove desenvolvimento integral, unindo conhecimento técnico e fortalecimento pessoal.</p>
+                    </article>
+                    <span>Novembro 2024 - atual</span>
+                </li>
+                <li class="fomarcao-item">
+                    <article>
+                    <h3>Nutrição Clínica e Funcional</h3>
+                    <p>INADES</p>
+                    </article>
+                    <span>Março 2023 - Setembro 2024</span>
+                </li>
+                <li class="fomarcao-item">
+                    <article>
+                    <h3>Residência Multiprofissional em Saúde da Família</h3>
+                    <p>Universidade Federal do Paraná (UFPR) - Curitiba, PR</p>
+                    </article>
+                    <span>Março 2020 - Fevereiro 2022</span>
+                </li>
+                <li class="fomarcao-item">
+                    <article>
+                    <h3>Nutrição</h3>
+                    <p>Universidade Estadual Paulista "Júlio de Mesquita Filho" (UNESP) - Botucatu, SP</p>
+                    </article>
+                    <span>Março 2015 - Janeiro 2020</span>
+                </li>
+            </ul>
+        </section>
+        
+        <section class="section-about">
+            <img class="img-perfil" src="img/perfil-a.jpeg" alt="Foto de perfil">
+            <article class="article-about">
+                <h2 class="title-about-me">Sobre mim</h2>
+                <p class="paragrafo-about">Nutricionista graduada pela Universidade Estadual Paulista "Júlio de Mesquita Filho" (UNESP), especialização em Saúde da Família através de Residência Multiprofissional pela Universidade Federal do Paraná (UFPR) e pós-graduação em Nutrição Clínica e Funcional. Durante minha carreira tive a oportunidade de atuar em diversas áreas da nutrição, tendo como principal foco de atuação a Atenção Primária à Saúde.</p>
+                <p>Atualmente, desenvolvo habilidades em Soft Skills, programação com JavaScript, HTML5 e CSS3, integrando conhecimentos técnicos e humanos para novos desafios profissionais.</p>
             </article>
-            <span>Março 2025 - atual</span>
-          </li>
-          <li>
-            <article>
-              <h3>Ciclo Formativo Introdutório</h3>
-              <p>Pretalab</p>
-              <p>
-                Fundamentos básico de HTML, CSS e lógica de programação com
-                JavaScript, além de desenvolvimento de Soft Skills para
-                capacitar mulheres negras em sua trajetória profissional.
-              </p>
-            </article>
-            <span>Novembro 2024 - Dezembro 2024</span>
-          </li>
-          <li>
-            <article>
-              <h3>Residência Multiprofissional em Saúde da Família</h3>
-              <p>Universidade Federal do Paraná (UFPR)</p>
-            </article>
-            <span>Março 2020 - Fevereiro 2022</span>
-          </li>
-          <li>
-            <article>
-              <h3>Nutrição</h3>
-              <p>
-                Universidade Estadual Paulista "Júlio de Mesquita Filho" (UNESP)
-              </p>
-            </article>
-            <span>Março 2015 - Janeiro 2020</span>
-          </li>
-        </ul>
-      </section>
-
-      <section id="experiencias">
-        <h2>Experiências</h2>
-        <ul>
-          <li>
-            <article>
-              <h3>Nutricionista Clínica Pleno - Saúde Populacional</h3>
-              <p>Hospital Sírio-Libanês</p>
-            </article>
-            <span>Maio 2024 - atual</span>
-          </li>
-          <li>
-            <article>
-              <h3>
-                Nutricionista - Equipe Multiprofissional na Atenção Primária à
-                Saúde (eMulti)
-              </h3>
-              <p>Associação Saúde da Família</p>
-            </article>
-
-            <span>Julho 2023 - Maio 2024</span>
-          </li>
-        </ul>
-      </section>
+        </section>
+        <section class="section-experiencias">
+            <h2>Minhas Experiências</h2>
+            <h3 class="text-detalhe"><em>Para mais informações clique no ícone a seguir </em> <a href="https://www.linkedin.com/in/elisabeth-aparecida-ribeiro/details/experience/" target="_blank"><i class="fa-brands fa-linkedin"></a></i></h3>
+            <ul>
+                <li class="experiencias-item">
+                    <h3> Nutricionista Clínica Pleno - Saúde Populacional</h3>
+                    <p>Hospital Sírio-Libanês</p>
+                    <span>Maio 2024 - atual</span>
+                </li>
+                <li class="experiencias-item">
+                    <h3>Nutricionista - Equipe Multiprofissional na Atenção Primária à Saúde (eMulti)</h3>
+                    <p>Associação Saúde da Família</p>
+                    <span>Julho 2023 - Maio 2024</span>
+                </li>
+                <li class="experiencias-item">
+                    <h3> Nutricionista</h3>
+                    <p>NotreDame Intermédica</p>
+                    <span>Novembro 2022 - Março 2023</span>
+                </li>
+            </ul>
+        </section>
     </main>
-    <section id="formulario">
-      <form
-        action="https://formspree.io/f/xnndleky"
-        method="POST"
-        class="formulario-contato"
-      >
-        <h2>Entre em contato</h2>
-        <div class="campos-nome-email">
-          <div class="campo-formulario">
-            <label for="nome">Nome: </label>
-            <input
-              type="nome"
-              id="nome"
-              name="nome"
-              placeholder="Digite o seu nome"
-            />
-          </div>
-
-          <div class="campo-formulario">
-            <label for="email">E-mail: </label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Digite seu e-mail"
-            />
-          </div>
-        </div>
-
-        <div class="campo-formulario">
-          <label for="mensagem">Mensagem: </label>
-          <textarea
-            id="mensagem"
-            name="mensagem"
-            placeholder="Escreva a sua mensagem"
-            rows="5"
-          ></textarea>
-        </div>
-
-        <button type="submit" class="btn-enviar">Enviar</button>
-      </form>
-    </section>
-
-    <footer class="rodape">
-      <ul>
-        <h3>Contatos</h3>
-        <i class="fa-brands fa-linkedin"></i>
-        @elisabeth-aparecida-ribeiro<br />
-        <i class="fa-brands fa-github"></i>
-        elisabethribeiro<br />
-        <i class="fa-solid fa-envelope"></i>
-        nutrielisabeth.ribeiro@gmail.com<br />
-      </ul>
-      <br />
-      <span>&copy; Todos os direitos reservados</span>
+    
+    <footer class="contatos">
+        <ul>
+            <h3>Contatos</h3>
+            <i class="fa-brands fa-linkedin"></a></i> @elisabeth-aparecida-ribeiro<br/>
+            <i class="fa-brands fa-github"></i></a></i> elisabethribeiro<br/>
+            <i class="fa-solid fa-envelope"></i> nutrielisabeth.ribeiro@gmail.com<br/>
+        </ul>
+        <br/>
+        <span>&copy; Todos os direitos reservados</span>
     </footer>
-  </body>
+
+</body>
 </html>
