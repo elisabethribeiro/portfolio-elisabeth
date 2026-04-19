@@ -4,13 +4,13 @@ Portfólio desenvolvido em 2024 nas disciplinas de HTML e CSS do Curso Formativo
 
 Este projeto marcou meus primeiros passos em desenvolvimento front-end, com foco na estruturação de páginas web e estilização básica.
 
-## 📌 Sobre o projeto
-
-Projeto criado para praticar fundamentos de HTML e CSS e desenvolver meu primeiro portfólio pessoal.
-
 ## 🚀 Acesse o projeto
 
 🔗 https://elisabeth-ribeiro.netlify.app/
+
+## 📌 Sobre o projeto
+
+Projeto criado para praticar fundamentos de HTML e CSS e desenvolver meu primeiro portfólio pessoal.
 
 ## 🛠 Tecnologias utilizadas
 
@@ -18,8 +18,6 @@ Projeto criado para praticar fundamentos de HTML e CSS e desenvolver meu primeir
 - CSS3
 
 ## 📚 Aprendizados
-
-Durante o desenvolvimento deste projeto, pratiquei:
 
 - Estrutura básica de páginas web  
 - Estilização com CSS  
